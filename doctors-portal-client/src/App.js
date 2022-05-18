@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Pages/Header/Header';
 
 function App() {
   return (
     <div>
-      <h2 className='text-3xl'>Hello there</h2>
+     <Header></Header>
     </div>
   );
 }
