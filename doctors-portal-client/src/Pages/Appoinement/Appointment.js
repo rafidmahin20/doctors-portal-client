@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import AppointmentBanner from './AppointmentBanner';
 
 const Appointment = () => {
     return (
@@ -7,7 +8,7 @@ const Appointment = () => {
             <Helmet>
                 <title>Appointment - Doctors Portal</title>
             </Helmet>
-           <h1>hello mister</h1> 
+          <AppointmentBanner></AppointmentBanner>
         </div>
     );
 };
