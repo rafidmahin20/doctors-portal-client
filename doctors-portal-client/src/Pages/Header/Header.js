@@ -7,14 +7,14 @@ const Header = () => {
     <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <h1 className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
         
-        <span className="ml-3 text-xl">Tailblocks</span>
+        <span className="ml-3 text-xl uppercase">Doctors Portal</span>
       </h1>
       <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
       <Link to='/' href="#" class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">Home</Link>
                     <Link to='/appointment' href="#" class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">Appointment</Link>
                     <Link to='/about' href="#" class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">About</Link>
       </nav>
-      <button className=" inline-flex items-center btn btn-accent border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+      <button className=" inline-flex items-center btn btn-secondary border-0 py-1 px-3 focus:outline-none hover:btn-accent rounded text-base mt-4 md:mt-0">Login
       </button>
     </div>
   </header>
